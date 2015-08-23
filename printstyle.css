@@ -1,0 +1,40 @@
+
+nav, aside, .credit, .figure { display: none;
+
+}
+
+img { max-width:500px; 
+
+}
+
+header {
+font-size: 24pt; text-align: center; 
+background-image: url('http://i.imgur.com/ljb9afw.png');
+font-family: "Euphoria Script", cursive;
+color: #786078;     
+}
+
+body { text-align: left; font: 1em/150% 'Book Antiqua', 'Georgia', serif; line-height: 1.3;
+}
+
+main h3 { text-align: center; font-size: 18pt;
+}
+
+page {
+margin: 0.5cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

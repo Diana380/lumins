@@ -1,0 +1,258 @@
+body {
+	font: 1em/150% 'Book Antiqua', 'Georgia', serif; background-image: url("http://i.imgur.com/iw6GKhs.jpg");
+    
+}
+a {
+	color: #786078;
+;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+li { list-style-type: none; padding: 5px;
+}
+
+header, main, aside, nav {
+	margin-bottom: 5px;
+   
+}
+
+header {  background-image: url('http://i.imgur.com/ljb9afw.png');
+    background-repeat: no-repeat; 
+    color: #786078; 
+    text-align: center; 
+    font-family: "Euphoria Script", cursive;
+}
+
+header h3 { font-size: 3.7em; 
+}
+
+header h5 {  font-size: 2em;
+}
+
+img {
+   max-width:100%;
+}
+
+.figure  { float:right; width: 200px; height: 200px;
+
+}
+.figcaption {font-size: 0.7em;
+
+}
+
+main { padding:5px; color: #44424D; background: #D9D0B1;
+
+}
+
+main h3 { color: #573847;text-align: center;
+
+}
+
+main p { padding: 5px; margin-left: 5px;
+
+}
+
+
+.candles { width: 300px; 
+    height: 250px; margin-left: 5px; 
+    margin-right: 5px; 
+    float: left; 
+    margin-bottom: 2px;
+     }
+
+aside { background: #E2BD9A; 
+
+}
+
+aside p, aside h3 { margin-left: 7px; color: #786078;
+}
+
+.products p { display:block; 
+    margin-bottom: 200px; 
+    margin-left: 10px; 
+}
+
+.outer, main h3  { border-bottom: dotted #C98818 2px; 
+}
+
+
+nav {background: #D9D0B1;
+}
+
+
+footer {
+    background: #D9D0B1; text-align: center; font-size: 0.7em;
+}
+ header, main, aside, nav, footer {
+	border: dotted 2px #C98818;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#wrapper {
+	padding: 5px;
+	width: 930px;
+	margin: 20px auto;
+}
+header {
+	height: 180px;
+}
+main {
+	width: 600px;
+	float: right;
+    padding: 5px;
+    
+}
+aside {
+	width: 300px;
+	float: left;
+    clear:left;
+    
+}
+
+nav li	{
+	display: inline;
+	list-style-type: none;
+	font-size: 18px;
+	margin-right: 20px;
+    
+    
+}
+
+footer {
+	clear: both;
+}
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#wrapper {
+		width: 94%;
+	}
+	main {
+		width: 65%;
+	}
+	aside {
+		width: 30%;
+	}
+
+}
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	main, article {
+		width: auto;
+		float: none;
+	}
+	aside {
+		width: auto;
+		float: none;
+	}
+	
+  
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	aside {
+		display: none;
+	}
+	
+	nav li {
+		display: block;
+	}
+    .figure { float:none; margin: 0px auto; text-align:center;}
+}
+
+
+
+
+
+
+
+
+
+/*contact form style*/
+fieldset {
+	margin: 3em;
+	padding: 2em;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+textarea {
+	height: 10em;
+}
+
+#contact_form {
+	display: block;
+}
+
+#loading {
+	display: none;
+	text-align: center;
+	padding-top: 9em;
+}
+
+#confirmation {
+	display: none;
+	text-align: center;
+	padding-top: 10em;
+	
+}
+
+#errmessage {
+	display: none;
+	text-align: center;
+	padding-top: 10em;
+}
+
+#errmessage h2 {
+	color: #ff0000;
+}
+
+.hint {
+	display: none;
+	color: #ff0000;
+}
+
+
+/*backto top button*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #D9D0B1;
+}
+
+
+
+
